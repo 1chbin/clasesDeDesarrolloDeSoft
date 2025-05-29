@@ -33,7 +33,7 @@ function seriesConTresOMasTemporadasNuevas(){
 
 //obtener la cantidad total de visitas de las series de ciencia ficcion
 function totalDeVisitasCienciaFiccion() {
-    const seriesCienciaFiccion = series.filter(series => series.genero === "Ciencia Ficción");
+    const seriesCienciaFiccion = series.filter(series => series.genero === "Ciencia ficción");
 
     return seriesCienciaFiccion.reduce((acumulador, serieActual) => 
         acumulador + serieActual.cant_visitas, 0
@@ -45,13 +45,16 @@ console.log(totalDeVisitasCienciaFiccion());
 function promedioDeVistasDrama() {
     const seriesDrama = series.filter(series => series.genero == "Drama" && series.anio >= 2012 && series.anio <= 2020);
 
-    const totalVisitas = seriesDrama.reduce((acumulador, series) => 
+    const totalVisitasDrama = seriesDrama.reduce((acumulador, series) => 
+        acumulador + series.cant_visitas, 0
+    );
+    const totalVisitas = series.reduce((acumulador, series) => 
         acumulador + series.cant_visitas, 0
     );
 
-    return totalVisitas / series.length;
+    return totalVisitasDrama / totalVisitas;
 }
-console.log(promedioDeVistasDrama());
+//console.log(promedioDeVistasDrama());
 
 //Crear una funcion que nos figa si todas las series del genero drama que hayan sido filmadas entre el año 2012 y 2020 tienen titulo que comienzan con la letra "A"
 
