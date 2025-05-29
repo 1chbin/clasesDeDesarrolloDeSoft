@@ -1,0 +1,944 @@
+[
+  {
+    "id": 1,
+    "id_cliente": 23,
+    "productos": [
+      {
+        "nombre_producto": "Yerba Mate",
+        "precio": 950
+      },
+      {
+        "nombre_producto": "Azúcar",
+        "precio": 400
+      },
+      {
+        "nombre_producto": "Pan",
+        "precio": 520
+      }
+    ],
+    "precio_total": 1870
+  },
+  {
+    "id": 2,
+    "id_cliente": 12,
+    "productos": [
+      {
+        "nombre_producto": "Harina",
+        "precio": 380
+      },
+      {
+        "nombre_producto": "Aceite",
+        "precio": 1800
+      },
+      {
+        "nombre_producto": "Leche",
+        "precio": 320
+      },
+      {
+        "nombre_producto": "Huevos",
+        "precio": 840
+      }
+    ],
+    "precio_total": 3340
+  },
+  {
+    "id": 3,
+    "id_cliente": 45,
+    "productos": [
+      {
+        "nombre_producto": "Arroz",
+        "precio": 580
+      },
+      {
+        "nombre_producto": "Fideos",
+        "precio": 490
+      },
+      {
+        "nombre_producto": "Tomates",
+        "precio": 700
+      }
+    ],
+    "precio_total": 1770
+  },
+  {
+    "id": 4,
+    "id_cliente": 8,
+    "productos": [
+      {
+        "nombre_producto": "Leche",
+        "precio": 320
+      },
+      {
+        "nombre_producto": "Queso Cremoso",
+        "precio": 1900
+      },
+      {
+        "nombre_producto": "Manteca",
+        "precio": 560
+      },
+      {
+        "nombre_producto": "Sal",
+        "precio": 150
+      },
+      {
+        "nombre_producto": "Pimienta",
+        "precio": 280
+      }
+    ],
+    "precio_total": 3210
+  },
+  {
+    "id": 5,
+    "id_cliente": 19,
+    "productos": [
+      {
+        "nombre_producto": "Pan",
+        "precio": 520
+      },
+      {
+        "nombre_producto": "Manteca",
+        "precio": 560
+      },
+      {
+        "nombre_producto": "Mermelada",
+        "precio": 700
+      }
+    ],
+    "precio_total": 1780
+  },
+  {
+    "id": 6,
+    "id_cliente": 33,
+    "productos": [
+      {
+        "nombre_producto": "Café",
+        "precio": 1800
+      },
+      {
+        "nombre_producto": "Galletitas Dulces",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Azúcar",
+        "precio": 400
+      },
+      {
+        "nombre_producto": "Edulcorante",
+        "precio": 650
+      }
+    ],
+    "precio_total": 3950
+  },
+  {
+    "id": 7,
+    "id_cliente": 7,
+    "productos": [
+      {
+        "nombre_producto": "Jugo de Naranja",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Gaseosa",
+        "precio": 1100
+      }
+    ],
+    "precio_total": 1950
+  },
+  {
+    "id": 8,
+    "id_cliente": 50,
+    "productos": [
+      {
+        "nombre_producto": "Carne Vacuna",
+        "precio": 2800
+      },
+      {
+        "nombre_producto": "Pollo",
+        "precio": 2100
+      },
+      {
+        "nombre_producto": "Carne de Cerdo",
+        "precio": 1900
+      }
+    ],
+    "precio_total": 6800
+  },
+  {
+    "id": 9,
+    "id_cliente": 3,
+    "productos": [
+      {
+        "nombre_producto": "Tomates",
+        "precio": 700
+      },
+      {
+        "nombre_producto": "Papas",
+        "precio": 550
+      },
+      {
+        "nombre_producto": "Cebolla",
+        "precio": 420
+      },
+      {
+        "nombre_producto": "Lechuga",
+        "precio": 560
+      }
+    ],
+    "precio_total": 2230
+  },
+  {
+    "id": 10,
+    "id_cliente": 41,
+    "productos": [
+      {
+        "nombre_producto": "Cebolla",
+        "precio": 420
+      },
+      {
+        "nombre_producto": "Zanahoria",
+        "precio": 550
+      },
+      {
+        "nombre_producto": "Zapallo",
+        "precio": 600
+      }
+    ],
+    "precio_total": 1570
+  },
+  {
+    "id": 11,
+    "id_cliente": 29,
+    "productos": [
+      {
+        "nombre_producto": "Manzanas",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Bananas",
+        "precio": 1100
+      }
+    ],
+    "precio_total": 1950
+  },
+  {
+    "id": 12,
+    "id_cliente": 14,
+    "productos": [
+      {
+        "nombre_producto": "Huevos",
+        "precio": 840
+      },
+      {
+        "nombre_producto": "Lechuga",
+        "precio": 560
+      },
+      {
+        "nombre_producto": "Tomates",
+        "precio": 700
+      },
+      {
+        "nombre_producto": "Cebolla",
+        "precio": 420
+      }
+    ],
+    "precio_total": 2520
+  },
+  {
+    "id": 13,
+    "id_cliente": 36,
+    "productos": [
+      {
+        "nombre_producto": "Papel Higiénico",
+        "precio": 1700
+      },
+      {
+        "nombre_producto": "Detergente",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Jabón en Barra",
+        "precio": 450
+      }
+    ],
+    "precio_total": 3250
+  },
+  {
+    "id": 14,
+    "id_cliente": 11,
+    "productos": [
+      {
+        "nombre_producto": "Shampoo",
+        "precio": 1400
+      },
+      {
+        "nombre_producto": "Jabón Líquido",
+        "precio": 1100
+      }
+    ],
+    "precio_total": 2500
+  },
+  {
+    "id": 15,
+    "id_cliente": 27,
+    "productos": [
+      {
+        "nombre_producto": "Cerveza",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Vino",
+        "precio": 1800
+      },
+      {
+        "nombre_producto": "Fernet",
+        "precio": 2200
+      }
+    ],
+    "precio_total": 4850
+  },
+  {
+    "id": 16,
+    "id_cliente": 4,
+    "productos": [
+      {
+        "nombre_producto": "Helado",
+        "precio": 2100
+      },
+      {
+        "nombre_producto": "Chocolate",
+        "precio": 1400
+      },
+      {
+        "nombre_producto": "Caramelos",
+        "precio": 500
+      },
+      {
+        "nombre_producto": "Alfajores",
+        "precio": 800
+      }
+    ],
+    "precio_total": 4800
+  },
+  {
+    "id": 17,
+    "id_cliente": 22,
+    "productos": [
+      {
+        "nombre_producto": "Sal",
+        "precio": 150
+      },
+      {
+        "nombre_producto": "Pimienta",
+        "precio": 280
+      }
+    ],
+    "precio_total": 430
+  },
+  {
+    "id": 18,
+    "id_cliente": 9,
+    "productos": [
+      {
+        "nombre_producto": "Mayonesa",
+        "precio": 700
+      },
+      {
+        "nombre_producto": "Ketchup",
+        "precio": 550
+      },
+      {
+        "nombre_producto": "Mostaza",
+        "precio": 400
+      }
+    ],
+    "precio_total": 1650
+  },
+  {
+    "id": 19,
+    "id_cliente": 31,
+    "productos": [
+      {
+        "nombre_producto": "Yerba Mate",
+        "precio": 950
+      },
+      {
+        "nombre_producto": "Azúcar",
+        "precio": 400
+      },
+      {
+        "nombre_producto": "Café",
+        "precio": 1800
+      },
+      {
+        "nombre_producto": "Té",
+        "precio": 700
+      }
+    ],
+    "precio_total": 3850
+  },
+  {
+    "id": 20,
+    "id_cliente": 6,
+    "productos": [
+      {
+        "nombre_producto": "Harina",
+        "precio": 380
+      },
+      {
+        "nombre_producto": "Aceite",
+        "precio": 1800
+      }
+    ],
+    "precio_total": 2180
+  },
+  {
+    "id": 21,
+    "id_cliente": 18,
+    "productos": [
+      {
+        "nombre_producto": "Arroz",
+        "precio": 580
+      },
+      {
+        "nombre_producto": "Fideos",
+        "precio": 490
+      },
+      {
+        "nombre_producto": "Lentejas",
+        "precio": 600
+      }
+    ],
+    "precio_total": 1670
+  },
+  {
+    "id": 22,
+    "id_cliente": 44,
+    "productos": [
+      {
+        "nombre_producto": "Leche",
+        "precio": 320
+      },
+      {
+        "nombre_producto": "Queso Cremoso",
+        "precio": 1900
+      }
+    ],
+    "precio_total": 2220
+  },
+  {
+    "id": 23,
+    "id_cliente": 13,
+    "productos": [
+      {
+        "nombre_producto": "Pan",
+        "precio": 520
+      },
+      {
+        "nombre_producto": "Manteca",
+        "precio": 560
+      },
+      {
+        "nombre_producto": "Dulce de Leche",
+        "precio": 680
+      }
+    ],
+    "precio_total": 1760
+  },
+  {
+    "id": 24,
+    "id_cliente": 48,
+    "productos": [
+      {
+        "nombre_producto": "Café",
+        "precio": 1800
+      },
+      {
+        "nombre_producto": "Galletitas Dulces",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Tostadas",
+        "precio": 550
+      }
+    ],
+    "precio_total": 3450
+  },
+  {
+    "id": 25,
+    "id_cliente": 2,
+    "productos": [
+      {
+        "nombre_producto": "Jugo de Naranja",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Gaseosa",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Agua Mineral",
+        "precio": 400
+      },
+      {
+        "nombre_producto": "Jugo de Manzana",
+        "precio": 700
+      }
+    ],
+    "precio_total": 50000
+  },
+  {
+    "id": 26,
+    "id_cliente": 34,
+    "productos": [
+      {
+        "nombre_producto": "Carne Vacuna",
+        "precio": 2800
+      },
+      {
+        "nombre_producto": "Pollo",
+        "precio": 2100
+      }
+    ],
+    "precio_total": 4900
+  },
+  {
+    "id": 27,
+    "id_cliente": 10,
+    "productos": [
+      {
+        "nombre_producto": "Tomates",
+        "precio": 700
+      },
+      {
+        "nombre_producto": "Papas",
+        "precio": 550
+      },
+      {
+        "nombre_producto": "Batatas",
+        "precio": 480
+      },
+      {
+        "nombre_producto": "Acelga",
+        "precio": 350
+      },
+      {
+        "nombre_producto": "Espinaca",
+        "precio": 400
+      }
+    ],
+    "precio_total": 2480
+  },
+  {
+    "id": 28,
+    "id_cliente": 21,
+    "productos": [
+      {
+        "nombre_producto": "Cebolla",
+        "precio": 420
+      },
+      {
+        "nombre_producto": "Zanahoria",
+        "precio": 550
+      }
+    ],
+    "precio_total": 970
+  },
+  {
+    "id": 29,
+    "id_cliente": 5,
+    "productos": [
+      {
+        "nombre_producto": "Manzanas",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Bananas",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Naranjas",
+        "precio": 700
+      }
+    ],
+    "precio_total": 2650
+  },
+  {
+    "id": 30,
+    "id_cliente": 40,
+    "productos": [
+      {
+        "nombre_producto": "Huevos",
+        "precio": 840
+      },
+      {
+        "nombre_producto": "Lechuga",
+        "precio": 560
+      }
+    ],
+    "precio_total": 1400
+  },
+  {
+    "id": 31,
+    "id_cliente": 17,
+    "productos": [
+      {
+        "nombre_producto": "Papel Higiénico",
+        "precio": 1700
+      },
+      {
+        "nombre_producto": "Detergente",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Lavandina",
+        "precio": 600
+      },
+      {
+        "nombre_producto": "Esponja",
+        "precio": 200
+      }
+    ],
+    "precio_total": 3600
+  },
+  {
+    "id": 32,
+    "id_cliente": 46,
+    "productos": [
+      {
+        "nombre_producto": "Shampoo",
+        "precio": 1400
+      },
+      {
+        "nombre_producto": "Jabón Líquido",
+        "precio": 1100
+      }
+    ],
+    "precio_total": 2500
+  },
+  {
+    "id": 33,
+    "id_cliente": 1,
+    "productos": [
+      {
+        "nombre_producto": "Cerveza",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Vino",
+        "precio": 1800
+      }
+    ],
+    "precio_total": 2650
+  },
+  {
+    "id": 34,
+    "id_cliente": 37,
+    "productos": [
+      {
+        "nombre_producto": "Helado",
+        "precio": 2100
+      },
+      {
+        "nombre_producto": "Chocolate",
+        "precio": 1400
+      }
+    ],
+    "precio_total": 3500
+  },
+  {
+    "id": 35,
+    "id_cliente": 15,
+    "productos": [
+      {
+        "nombre_producto": "Sal",
+        "precio": 150
+      },
+      {
+        "nombre_producto": "Pimienta",
+        "precio": 280
+      },
+      {
+        "nombre_producto": "Orégano",
+        "precio": 120
+      }
+    ],
+    "precio_total": 550
+  },
+  {
+    "id": 36,
+    "id_cliente": 30,
+    "productos": [
+      {
+        "nombre_producto": "Mayonesa",
+        "precio": 700
+      },
+      {
+        "nombre_producto": "Ketchup",
+        "precio": 550
+      }
+    ],
+    "precio_total": 1250
+  },
+  {
+    "id": 37,
+    "id_cliente": 20,
+    "productos": [
+      {
+        "nombre_producto": "Yerba Mate",
+        "precio": 950
+      },
+      {
+        "nombre_producto": "Azúcar",
+        "precio": 400
+      },
+      {
+        "nombre_producto": "Galletitas de Agua",
+        "precio": 500
+      }
+    ],
+    "precio_total": 1850
+  },
+  {
+    "id": 38,
+    "id_cliente": 43,
+    "productos": [
+      {
+        "nombre_producto": "Harina",
+        "precio": 380
+      },
+      {
+        "nombre_producto": "Aceite",
+        "precio": 1800
+      }
+    ],
+    "precio_total": 2180
+  },
+  {
+    "id": 39,
+    "id_cliente": 16,
+    "productos": [
+      {
+        "nombre_producto": "Arroz",
+        "precio": 580
+      },
+      {
+        "nombre_producto": "Fideos",
+        "precio": 490
+      },
+      {
+        "nombre_producto": "Polenta",
+        "precio": 350
+      }
+    ],
+    "precio_total": 1420
+  },
+  {
+    "id": 40,
+    "id_cliente": 25,
+    "productos": [
+      {
+        "nombre_producto": "Leche",
+        "precio": 320
+      },
+      {
+        "nombre_producto": "Queso Cremoso",
+        "precio": 1900
+      },
+      {
+        "nombre_producto": "Yogurt",
+        "precio": 450
+      },
+      {
+        "nombre_producto": "Crema de Leche",
+        "precio": 600
+      }
+    ],
+    "precio_total": 3270
+  },
+  {
+    "id": 41,
+    "id_cliente": 32,
+    "productos": [
+      {
+        "nombre_producto": "Pan",
+        "precio": 520
+      },
+      {
+        "nombre_producto": "Manteca",
+        "precio": 560
+      }
+    ],
+    "precio_total": 1080
+  },
+  {
+    "id": 42,
+    "id_cliente": 24,
+    "productos": [
+      {
+        "nombre_producto": "Café",
+        "precio": 1800
+      },
+      {
+        "nombre_producto": "Galletitas Dulces",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Mermelada",
+        "precio": 650
+      }
+    ],
+    "precio_total": 3550
+  },
+  {
+    "id": 43,
+    "id_cliente": 28,
+    "productos": [
+      {
+        "nombre_producto": "Jugo de Naranja",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Gaseosa",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Soda",
+        "precio": 300
+      }
+    ],
+    "precio_total": 2250
+  },
+  {
+    "id": 44,
+    "id_cliente": 38,
+    "productos": [
+      {
+        "nombre_producto": "Carne Vacuna",
+        "precio": 2800
+      },
+      {
+        "nombre_producto": "Pollo",
+        "precio": 2100
+      },
+      {
+        "nombre_producto": "Pescado",
+        "precio": 2500
+      },
+      {
+        "nombre_producto": "Salchichas",
+        "precio": 900
+      }
+    ],
+    "precio_total": 8300
+  },
+  {
+    "id": 45,
+    "id_cliente": 26,
+    "productos": [
+      {
+        "nombre_producto": "Tomates",
+        "precio": 700
+      },
+      {
+        "nombre_producto": "Papas",
+        "precio": 550
+      }
+    ],
+    "precio_total": 1250
+  },
+  {
+    "id": 46,
+    "id_cliente": 42,
+    "productos": [
+      {
+        "nombre_producto": "Cebolla",
+        "precio": 420
+      },
+      {
+        "nombre_producto": "Zanahoria",
+        "precio": 550
+      },
+      {
+        "nombre_producto": "Morrón",
+        "precio": 480
+      }
+    ],
+    "precio_total": 1450
+  },
+  {
+    "id": 47,
+    "id_cliente": 35,
+    "productos": [
+      {
+        "nombre_producto": "Manzanas",
+        "precio": 850
+      },
+      {
+        "nombre_producto": "Bananas",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Peras",
+        "precio": 750
+      },
+      {
+        "nombre_producto": "Uvas",
+        "precio": 900
+      }
+    ],
+    "precio_total": 3600
+  },
+  {
+    "id": 48,
+    "id_cliente": 39,
+    "productos": [
+      {
+        "nombre_producto": "Huevos",
+        "precio": 840
+      },
+      {
+        "nombre_producto": "Lechuga",
+        "precio": 560
+      },
+      {
+        "nombre_producto": "Acelga",
+        "precio": 350
+      }
+    ],
+    "precio_total": 1750
+  },
+  {
+    "id": 49,
+    "id_cliente": 47,
+    "productos": [
+      {
+        "nombre_producto": "Papel Higiénico",
+        "precio": 1700
+      },
+      {
+        "nombre_producto": "Detergente",
+        "precio": 1100
+      }
+    ],
+    "precio_total": 2800
+  },
+  {
+    "id": 50,
+    "id_cliente": 49,
+    "productos": [
+      {
+        "nombre_producto": "Shampoo",
+        "precio": 1400
+      },
+      {
+        "nombre_producto": "Jabón Líquido",
+        "precio": 1100
+      },
+      {
+        "nombre_producto": "Acondicionador",
+        "precio": 1200
+      }
+    ],
+    "precio_total": 3700
+  }
+]
