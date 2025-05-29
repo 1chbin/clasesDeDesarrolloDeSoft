@@ -1,0 +1,702 @@
+[
+  {
+    "nombre": "Work among",
+    "cant_temporadas": 8,
+    "genero": "Terror",
+    "anio": 2003,
+    "cant_visitas": 118427062
+  },
+  {
+    "nombre": "Business sign tend",
+    "cant_temporadas": 8,
+    "genero": "Ciencia ficción",
+    "anio": 2001,
+    "cant_visitas": 153622183
+  },
+  {
+    "nombre": "Camera that figure",
+    "cant_temporadas": 8,
+    "genero": "Thriller",
+    "anio": 2017,
+    "cant_visitas": 183189276
+  },
+  {
+    "nombre": "Almost although",
+    "cant_temporadas": 7,
+    "genero": "Histórico",
+    "anio": 2012,
+    "cant_visitas": 66956329
+  },
+  {
+    "nombre": "Pretty model",
+    "cant_temporadas": 2,
+    "genero": "Drama",
+    "anio": 2000,
+    "cant_visitas": 164420075
+  },
+  {
+    "nombre": "Project court truth",
+    "cant_temporadas": 2,
+    "genero": "Thriller",
+    "anio": 2008,
+    "cant_visitas": 104625673
+  },
+  {
+    "nombre": "Exactly after",
+    "cant_temporadas": 1,
+    "genero": "Romance",
+    "anio": 2012,
+    "cant_visitas": 84304731
+  },
+  {
+    "nombre": "Soon soon",
+    "cant_temporadas": 3,
+    "genero": "Fantasía",
+    "anio": 2006,
+    "cant_visitas": 121466176
+  },
+  {
+    "nombre": "Service first board",
+    "cant_temporadas": 4,
+    "genero": "Terror",
+    "anio": 2015,
+    "cant_visitas": 143373035
+  },
+  {
+    "nombre": "Thus also",
+    "cant_temporadas": 3,
+    "genero": "Ciencia ficción",
+    "anio": 2018,
+    "cant_visitas": 87780596
+  },
+  {
+    "nombre": "Everything pay",
+    "cant_temporadas": 8,
+    "genero": "Acción",
+    "anio": 2011,
+    "cant_visitas": 52892916
+  },
+  {
+    "nombre": "Organization likely win",
+    "cant_temporadas": 7,
+    "genero": "Histórico",
+    "anio": 2021,
+    "cant_visitas": 148253842
+  },
+  {
+    "nombre": "Management",
+    "cant_temporadas": 4,
+    "genero": "Fantasía",
+    "anio": 2011,
+    "cant_visitas": 197233646
+  },
+  {
+    "nombre": "Strategy particularly example",
+    "cant_temporadas": 3,
+    "genero": "Fantasía",
+    "anio": 2007,
+    "cant_visitas": 121643601
+  },
+  {
+    "nombre": "Pretty",
+    "cant_temporadas": 7,
+    "genero": "Acción",
+    "anio": 2001,
+    "cant_visitas": 107003323
+  },
+  {
+    "nombre": "Organization know role",
+    "cant_temporadas": 1,
+    "genero": "Ciencia ficción",
+    "anio": 2010,
+    "cant_visitas": 179373538
+  },
+  {
+    "nombre": "Until improve",
+    "cant_temporadas": 2,
+    "genero": "Ciencia ficción",
+    "anio": 2024,
+    "cant_visitas": 134280999
+  },
+  {
+    "nombre": "Morning bring officer",
+    "cant_temporadas": 1,
+    "genero": "Thriller",
+    "anio": 2020,
+    "cant_visitas": 81047129
+  },
+  {
+    "nombre": "Project truth would determine",
+    "cant_temporadas": 9,
+    "genero": "Aventura",
+    "anio": 2021,
+    "cant_visitas": 33799730
+  },
+  {
+    "nombre": "Whole form possible",
+    "cant_temporadas": 10,
+    "genero": "Comedia",
+    "anio": 2007,
+    "cant_visitas": 66817441
+  },
+  {
+    "nombre": "Image hear charge",
+    "cant_temporadas": 5,
+    "genero": "Comedia",
+    "anio": 2016,
+    "cant_visitas": 57237902
+  },
+  {
+    "nombre": "Nearly across policy",
+    "cant_temporadas": 3,
+    "genero": "Romance",
+    "anio": 2007,
+    "cant_visitas": 13377074
+  },
+  {
+    "nombre": "Go sure",
+    "cant_temporadas": 3,
+    "genero": "Aventura",
+    "anio": 2015,
+    "cant_visitas": 115669637
+  },
+  {
+    "nombre": "Democratic painting",
+    "cant_temporadas": 8,
+    "genero": "Drama",
+    "anio": 2005,
+    "cant_visitas": 26667092
+  },
+  {
+    "nombre": "Response hair pattern",
+    "cant_temporadas": 7,
+    "genero": "Fantasía",
+    "anio": 2023,
+    "cant_visitas": 7829863
+  },
+  {
+    "nombre": "Source hotel",
+    "cant_temporadas": 9,
+    "genero": "Drama",
+    "anio": 2024,
+    "cant_visitas": 121724932
+  },
+  {
+    "nombre": "Glass final area",
+    "cant_temporadas": 1,
+    "genero": "Comedia",
+    "anio": 2004,
+    "cant_visitas": 192386466
+  },
+  {
+    "nombre": "Resource your usually",
+    "cant_temporadas": 4,
+    "genero": "Acción",
+    "anio": 2009,
+    "cant_visitas": 96058554
+  },
+  {
+    "nombre": "Guess card moment",
+    "cant_temporadas": 9,
+    "genero": "Drama",
+    "anio": 2024,
+    "cant_visitas": 174052443
+  },
+  {
+    "nombre": "Avoid message year",
+    "cant_temporadas": 7,
+    "genero": "Ciencia ficción",
+    "anio": 2017,
+    "cant_visitas": 144402939
+  },
+  {
+    "nombre": "Someone plan",
+    "cant_temporadas": 1,
+    "genero": "Terror",
+    "anio": 2016,
+    "cant_visitas": 144907958
+  },
+  {
+    "nombre": "Collection guess",
+    "cant_temporadas": 7,
+    "genero": "Drama",
+    "anio": 2024,
+    "cant_visitas": 184062831
+  },
+  {
+    "nombre": "Vote could without",
+    "cant_temporadas": 7,
+    "genero": "Histórico",
+    "anio": 2011,
+    "cant_visitas": 16432662
+  },
+  {
+    "nombre": "Indeed admit",
+    "cant_temporadas": 7,
+    "genero": "Terror",
+    "anio": 2018,
+    "cant_visitas": 81169431
+  },
+  {
+    "nombre": "Catch important seem",
+    "cant_temporadas": 2,
+    "genero": "Aventura",
+    "anio": 2005,
+    "cant_visitas": 68385084
+  },
+  {
+    "nombre": "This shake huge",
+    "cant_temporadas": 10,
+    "genero": "Histórico",
+    "anio": 2017,
+    "cant_visitas": 33371836
+  },
+  {
+    "nombre": "Imagine thus",
+    "cant_temporadas": 10,
+    "genero": "Drama",
+    "anio": 2011,
+    "cant_visitas": 64632964
+  },
+  {
+    "nombre": "By TV prove nation",
+    "cant_temporadas": 5,
+    "genero": "Romance",
+    "anio": 2015,
+    "cant_visitas": 175647216
+  },
+  {
+    "nombre": "Eye or memory",
+    "cant_temporadas": 10,
+    "genero": "Acción",
+    "anio": 2004,
+    "cant_visitas": 168369851
+  },
+  {
+    "nombre": "Close leave happy",
+    "cant_temporadas": 8,
+    "genero": "Ciencia ficción",
+    "anio": 2008,
+    "cant_visitas": 14717891
+  },
+  {
+    "nombre": "Chance woman long",
+    "cant_temporadas": 2,
+    "genero": "Romance",
+    "anio": 2018,
+    "cant_visitas": 121746758
+  },
+  {
+    "nombre": "School federal out memory",
+    "cant_temporadas": 7,
+    "genero": "Acción",
+    "anio": 2013,
+    "cant_visitas": 18557956
+  },
+  {
+    "nombre": "Writer school understand",
+    "cant_temporadas": 6,
+    "genero": "Thriller",
+    "anio": 2012,
+    "cant_visitas": 175301416
+  },
+  {
+    "nombre": "Seat why population",
+    "cant_temporadas": 1,
+    "genero": "Drama",
+    "anio": 2014,
+    "cant_visitas": 174285317
+  },
+  {
+    "nombre": "Station mean street six",
+    "cant_temporadas": 4,
+    "genero": "Comedia",
+    "anio": 2013,
+    "cant_visitas": 55949409
+  },
+  {
+    "nombre": "Begin outside short",
+    "cant_temporadas": 3,
+    "genero": "Comedia",
+    "anio": 2003,
+    "cant_visitas": 184492779
+  },
+  {
+    "nombre": "Road soldier truth",
+    "cant_temporadas": 4,
+    "genero": "Drama",
+    "anio": 2021,
+    "cant_visitas": 3783469
+  },
+  {
+    "nombre": "Morning late",
+    "cant_temporadas": 2,
+    "genero": "Fantasía",
+    "anio": 2003,
+    "cant_visitas": 190530316
+  },
+  {
+    "nombre": "Wife affect",
+    "cant_temporadas": 2,
+    "genero": "Comedia",
+    "anio": 2015,
+    "cant_visitas": 93419105
+  },
+  {
+    "nombre": "Here out miss",
+    "cant_temporadas": 7,
+    "genero": "Histórico",
+    "anio": 2018,
+    "cant_visitas": 50239712
+  },
+  {
+    "nombre": "Against keep",
+    "cant_temporadas": 3,
+    "genero": "Histórico",
+    "anio": 2002,
+    "cant_visitas": 167636119
+  },
+  {
+    "nombre": "Activity me",
+    "cant_temporadas": 7,
+    "genero": "Comedia",
+    "anio": 2001,
+    "cant_visitas": 74505388
+  },
+  {
+    "nombre": "Sound short",
+    "cant_temporadas": 5,
+    "genero": "Acción",
+    "anio": 2013,
+    "cant_visitas": 13399702
+  },
+  {
+    "nombre": "Require less north",
+    "cant_temporadas": 2,
+    "genero": "Fantasía",
+    "anio": 2009,
+    "cant_visitas": 133651204
+  },
+  {
+    "nombre": "Boy four",
+    "cant_temporadas": 5,
+    "genero": "Thriller",
+    "anio": 2005,
+    "cant_visitas": 18019474
+  },
+  {
+    "nombre": "Expect indicate debate health",
+    "cant_temporadas": 7,
+    "genero": "Romance",
+    "anio": 2005,
+    "cant_visitas": 3598235
+  },
+  {
+    "nombre": "Mind prove",
+    "cant_temporadas": 5,
+    "genero": "Crimen",
+    "anio": 2004,
+    "cant_visitas": 54166911
+  },
+  {
+    "nombre": "Find",
+    "cant_temporadas": 10,
+    "genero": "Thriller",
+    "anio": 2021,
+    "cant_visitas": 76120842
+  },
+  {
+    "nombre": "Walk",
+    "cant_temporadas": 4,
+    "genero": "Aventura",
+    "anio": 2006,
+    "cant_visitas": 158203208
+  },
+  {
+    "nombre": "Cell quickly management",
+    "cant_temporadas": 9,
+    "genero": "Comedia",
+    "anio": 2020,
+    "cant_visitas": 54596520
+  },
+  {
+    "nombre": "Meet trip",
+    "cant_temporadas": 4,
+    "genero": "Ciencia ficción",
+    "anio": 2000,
+    "cant_visitas": 160847273
+  },
+  {
+    "nombre": "Successful every",
+    "cant_temporadas": 6,
+    "genero": "Terror",
+    "anio": 2022,
+    "cant_visitas": 118107012
+  },
+  {
+    "nombre": "Seek enjoy name",
+    "cant_temporadas": 5,
+    "genero": "Thriller",
+    "anio": 2005,
+    "cant_visitas": 129099154
+  },
+  {
+    "nombre": "Baby contain lot",
+    "cant_temporadas": 4,
+    "genero": "Romance",
+    "anio": 2002,
+    "cant_visitas": 10449419
+  },
+  {
+    "nombre": "Million ability hand",
+    "cant_temporadas": 8,
+    "genero": "Terror",
+    "anio": 2018,
+    "cant_visitas": 94477973
+  },
+  {
+    "nombre": "Region book apply",
+    "cant_temporadas": 2,
+    "genero": "Ciencia ficción",
+    "anio": 2013,
+    "cant_visitas": 173977332
+  },
+  {
+    "nombre": "Wall edge",
+    "cant_temporadas": 4,
+    "genero": "Histórico",
+    "anio": 2023,
+    "cant_visitas": 83925752
+  },
+  {
+    "nombre": "Early deep treatment",
+    "cant_temporadas": 6,
+    "genero": "Acción",
+    "anio": 2012,
+    "cant_visitas": 128158991
+  },
+  {
+    "nombre": "Protect",
+    "cant_temporadas": 3,
+    "genero": "Ciencia ficción",
+    "anio": 2019,
+    "cant_visitas": 157517167
+  },
+  {
+    "nombre": "Ten song",
+    "cant_temporadas": 5,
+    "genero": "Comedia",
+    "anio": 2000,
+    "cant_visitas": 113568327
+  },
+  {
+    "nombre": "Reduce identify",
+    "cant_temporadas": 8,
+    "genero": "Romance",
+    "anio": 2000,
+    "cant_visitas": 80281542
+  },
+  {
+    "nombre": "Major",
+    "cant_temporadas": 4,
+    "genero": "Fantasía",
+    "anio": 2024,
+    "cant_visitas": 188683337
+  },
+  {
+    "nombre": "Room prove scientist",
+    "cant_temporadas": 3,
+    "genero": "Crimen",
+    "anio": 2015,
+    "cant_visitas": 125814105
+  },
+  {
+    "nombre": "Energy threat president respond",
+    "cant_temporadas": 7,
+    "genero": "Romance",
+    "anio": 2019,
+    "cant_visitas": 42810318
+  },
+  {
+    "nombre": "Cause office",
+    "cant_temporadas": 4,
+    "genero": "Comedia",
+    "anio": 2020,
+    "cant_visitas": 63244611
+  },
+  {
+    "nombre": "Truth",
+    "cant_temporadas": 2,
+    "genero": "Acción",
+    "anio": 2011,
+    "cant_visitas": 93054004
+  },
+  {
+    "nombre": "Share decide",
+    "cant_temporadas": 1,
+    "genero": "Fantasía",
+    "anio": 2018,
+    "cant_visitas": 72482744
+  },
+  {
+    "nombre": "Room resource again",
+    "cant_temporadas": 1,
+    "genero": "Terror",
+    "anio": 2015,
+    "cant_visitas": 159806686
+  },
+  {
+    "nombre": "Set into",
+    "cant_temporadas": 8,
+    "genero": "Histórico",
+    "anio": 2023,
+    "cant_visitas": 32919447
+  },
+  {
+    "nombre": "Culture tonight",
+    "cant_temporadas": 8,
+    "genero": "Thriller",
+    "anio": 2017,
+    "cant_visitas": 72054024
+  },
+  {
+    "nombre": "My even",
+    "cant_temporadas": 8,
+    "genero": "Histórico",
+    "anio": 2020,
+    "cant_visitas": 107481739
+  },
+  {
+    "nombre": "Might receive",
+    "cant_temporadas": 6,
+    "genero": "Comedia",
+    "anio": 2004,
+    "cant_visitas": 162784528
+  },
+  {
+    "nombre": "Law position wife door",
+    "cant_temporadas": 8,
+    "genero": "Thriller",
+    "anio": 2012,
+    "cant_visitas": 2479109
+  },
+  {
+    "nombre": "Throw vote",
+    "cant_temporadas": 2,
+    "genero": "Terror",
+    "anio": 2009,
+    "cant_visitas": 114162129
+  },
+  {
+    "nombre": "Option kind",
+    "cant_temporadas": 10,
+    "genero": "Drama",
+    "anio": 2003,
+    "cant_visitas": 138033226
+  },
+  {
+    "nombre": "Plant nothing trial head",
+    "cant_temporadas": 2,
+    "genero": "Aventura",
+    "anio": 2014,
+    "cant_visitas": 58101932
+  },
+  {
+    "nombre": "Keep treat task",
+    "cant_temporadas": 7,
+    "genero": "Thriller",
+    "anio": 2010,
+    "cant_visitas": 135997165
+  },
+  {
+    "nombre": "Such",
+    "cant_temporadas": 4,
+    "genero": "Romance",
+    "anio": 2008,
+    "cant_visitas": 32971655
+  },
+  {
+    "nombre": "President write",
+    "cant_temporadas": 10,
+    "genero": "Crimen",
+    "anio": 2016,
+    "cant_visitas": 146193967
+  },
+  {
+    "nombre": "Plan thought before my",
+    "cant_temporadas": 6,
+    "genero": "Comedia",
+    "anio": 2002,
+    "cant_visitas": 127292963
+  },
+  {
+    "nombre": "Sister daughter",
+    "cant_temporadas": 4,
+    "genero": "Thriller",
+    "anio": 2006,
+    "cant_visitas": 177571572
+  },
+  {
+    "nombre": "Recognize try church civil",
+    "cant_temporadas": 3,
+    "genero": "Ciencia ficción",
+    "anio": 2021,
+    "cant_visitas": 48803606
+  },
+  {
+    "nombre": "Fish contain",
+    "cant_temporadas": 8,
+    "genero": "Histórico",
+    "anio": 2022,
+    "cant_visitas": 130042745
+  },
+  {
+    "nombre": "Magazine enough me",
+    "cant_temporadas": 6,
+    "genero": "Fantasía",
+    "anio": 2012,
+    "cant_visitas": 156627194
+  },
+  {
+    "nombre": "South teacher adult",
+    "cant_temporadas": 4,
+    "genero": "Comedia",
+    "anio": 2002,
+    "cant_visitas": 129855636
+  },
+  {
+    "nombre": "Money vote",
+    "cant_temporadas": 8,
+    "genero": "Aventura",
+    "anio": 2001,
+    "cant_visitas": 23163358
+  },
+  {
+    "nombre": "Else couple",
+    "cant_temporadas": 5,
+    "genero": "Fantasía",
+    "anio": 2022,
+    "cant_visitas": 45941270
+  },
+  {
+    "nombre": "Almost body family",
+    "cant_temporadas": 7,
+    "genero": "Fantasía",
+    "anio": 2023,
+    "cant_visitas": 128538857
+  },
+  {
+    "nombre": "Green medical",
+    "cant_temporadas": 6,
+    "genero": "Terror",
+    "anio": 2003,
+    "cant_visitas": 46931665
+  },
+  {
+    "nombre": "Organization know sing",
+    "cant_temporadas": 3,
+    "genero": "Romance",
+    "anio": 2014,
+    "cant_visitas": 26106248
+  }
+]
