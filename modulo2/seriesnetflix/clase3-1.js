@@ -32,14 +32,14 @@ function seriesConTresOMasTemporadasNuevas(){
 
 
 //obtener la cantidad total de visitas de las series de ciencia ficcion
-function totalDeVisitasCienciaFiccion() {
-    const seriesCienciaFiccion = series.filter(series => series.genero === "Ciencia ficción");
+function totalDeVisitasSegunGenero(genero) {
+    const seriesGenero = series.filter(series => series.genero.toLowerCase() == genero.toLowerCase());
 
-    return seriesCienciaFiccion.reduce((acumulador, serieActual) => 
+    return seriesGenero.reduce((acumulador, serieActual) => 
         acumulador + serieActual.cant_visitas, 0
     );
 }
-console.log(totalDeVisitasCienciaFiccion());
+//console.log(totalDeVisitasSegunGenero("Ciencia ficción"));
 
 //Obtener el promedio de cantidad de visitas de las series cuyo genero sean drama y su año de filmacion este comprendido entre 2012 y 2020
 function promedioDeVistasDrama() {
@@ -48,18 +48,18 @@ function promedioDeVistasDrama() {
     const totalVisitasDrama = seriesDrama.reduce((acumulador, series) => 
         acumulador + series.cant_visitas, 0
     );
-    const totalVisitas = series.reduce((acumulador, series) => 
-        acumulador + series.cant_visitas, 0
-    );
+    // const totalVisitas = series.reduce((acumulador, series) => 
+    //     acumulador + series.cant_visitas, 0
+    // );
 
-    return totalVisitasDrama / totalVisitas;
+    return totalVisitasDrama / series.length;
 }
 //console.log(promedioDeVistasDrama());
 
 //Crear una funcion que nos figa si todas las series del genero drama que hayan sido filmadas entre el año 2012 y 2020 tienen titulo que comienzan con la letra "A"
 
 function todasLasSeriesDramaConA() {
-    const seriesDramaConA = series.filter(series => series.genero == "Drama" && series.anio >= 20 && series.anio <= 2020 && series.nombre.startsWith("A"));
+    const seriesDramaConA = series.filter(series => series.genero == "Drama" && series.anio >= 2012 && series.anio <= 2020 && series.nombre.startsWith("A"));
     return seriesDramaConA;
 }
 //console.log(todasLasSeriesDramaConA());
