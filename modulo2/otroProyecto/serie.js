@@ -52,6 +52,17 @@ class Serie {
     }
 
 
+    //Nos interesa saber si una serie fue fuertemente recomendada, una serie es fuertemente recomendada si es buena y al menos 2 resenias superan los 1500 caracteres
+
+    reseniasCaracteres(caracteres){
+
+    }
+
+    esAltamenteRecomendada(){
+        return this.esBuena() &&reseniasCaracteres(150).length >= 2;
+    }
+
+
     //Devuelve en pantalla los nombres de las series interminables con mas de 5 temporadas
     esInterminable(){
         return this.cantTemporadas >= 5

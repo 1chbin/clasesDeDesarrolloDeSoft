@@ -35,13 +35,14 @@ const resenia2 = new Reseña(4, "No estuvo buena");
 eternauta.recibirResenia(resenia1);
 eternauta.recibirResenia(resenia2);
 
-console.log(eternauta.esBuena());
-
+//console.log(eternauta.esBuena());
 
 
 //Nos interesa saber si una serie fue fuertemente recomendada, una serie es fuertemente recomendada si es buena y al menos 2 resenias superan los 1500 caracteres
 
 //Nos interesa saber si una serie es Pauperrima/malisima
+
+
 
 //Determinar si el promedio de puntajes de reseñas es menor a 4 y al menos una reseña contiene la frase "es una perdida de tiempo"
 
