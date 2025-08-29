@@ -1,0 +1,12 @@
+[
+    {
+        "titulo": "MiLibro1",
+        "autor": "Joaquin Allue",
+        "año": 1967
+    },
+    {
+        "titulo": "MiLibro2",
+        "autor": "Nicolas Allue",
+        "año": 1943
+    }
+]
