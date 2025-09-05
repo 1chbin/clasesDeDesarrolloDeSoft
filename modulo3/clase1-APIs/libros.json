@@ -1,12 +1,32 @@
 [
-    {
-        "titulo": "MiLibro1",
-        "autor": "Joaquin Allue",
-        "año": 1967
-    },
-    {
-        "titulo": "MiLibro2",
-        "autor": "Nicolas Allue",
-        "año": 1943
-    }
+  {
+    "id": 1,
+    "titulo": "MiLibro1",
+    "autor": "Joaquin Allue",
+    "genero": "Aventura"
+  },
+  {
+    "id": 2,
+    "titulo": "MiLibro2",
+    "autor": "Nicolas Allue",
+    "genero": "Drama"
+  },
+  {
+    "id": 3,
+    "titulo": "Harry Potter",
+    "autor": "Nicolas Allue",
+    "genero": "Drama"
+  },
+  {
+    "id": 5,
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Martina Benegas",
+    "genero": "Romance"
+  },
+  {
+    "id": 7,
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Martina Benegas",
+    "genero": "Romance"
+  }
 ]
