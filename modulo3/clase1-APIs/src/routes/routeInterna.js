@@ -1,9 +1,7 @@
 import express from 'express';
-import { openLibraryService } from '../services/openLibraryService.js';
 import { serviceInterno } from '../services/serviceInterno.js';
 
 const router = express.Router();
-const externo = openLibraryService
 // Ruta interna: busca solo en el JSON local
 router.get('/', async (req, res) => {
 	const { titulo, autor, genero } = req.query;
