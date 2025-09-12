@@ -1,10 +1,10 @@
 import fs from 'fs';
 
-let libros = JSON.parse(fs.readFileSync('c:/Users/windows/Desktop/Carpetas/ClasesDeDesarrollo/clasesDeDesarrolloDeSoft/modulo3/clase1-APIs/libros.json', 'utf8'));
+let libros = JSON.parse(fs.readFileSync('./libros.json', 'utf8'));
 
 export class serviceInterno {
 	constructor() {
-		this.filePath = 'c:/Users/windows/Desktop/Carpetas/ClasesDeDesarrollo/clasesDeDesarrolloDeSoft/modulo3/clase1-APIs/libros.json';
+		this.filePath = './libros.json';
 	}
 
 	async buscarLibros({ titulo, autor, genero }) {

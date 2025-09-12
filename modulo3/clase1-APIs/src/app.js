@@ -2,6 +2,7 @@ import express from 'express';
 import { openLibraryRoutes } from './routes/openLibraryRoutes.js';
 import { librosRoutes } from './routes/librosRoutes.js';
 import { routeInterna } from './routes/routeInterna.js';
+import { multimediaRoute } from './routes/multimediaRoute.js';
 
 const app = express();
 
@@ -11,6 +12,7 @@ app.use(express.json());
 app.use("/api/libros", librosRoutes);
 app.use("/api/libros-interno", routeInterna)
 app.use("/api/libros-externo", openLibraryRoutes);
+app.use("/api/multimedia", multimediaRoute);
 
 
 // app.get("/api/prueba", (req, res)=> {

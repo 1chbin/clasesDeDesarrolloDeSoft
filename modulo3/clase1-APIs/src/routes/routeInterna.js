@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
 	try {
 		const fs = await import('fs');
 		const path = await import('path');
-		const filePath = path.resolve('c:/Users/windows/Desktop/Carpetas/ClasesDeDesarrollo/clasesDeDesarrolloDeSoft/modulo3/clase1-APIs/libros.json');
+		const filePath = path.resolve('./libros.json');
 		const data = fs.readFileSync(filePath, 'utf8');
 		if (data) {
 			const librosJson = JSON.parse(data);
