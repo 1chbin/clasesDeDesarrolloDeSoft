@@ -20,7 +20,12 @@ export class RepositorioDeUsuarios {
     }
 
     actualizarUsuario(id, datosActualizados) {
-        const indice = this.usuarios.find(usuario => String(usuario.id) === String(id));
-        
+        const indice = this.usuarios.findIndex(usuario => String(usuario.id) === String(id));
+        let usuario = this.usuarios[indice];
+        usuario.nombre = datosActualizados.nombre;
+        usuario.apellido = datosActualizados.apellido;
+        usuario.email = datosActualizados.email;
+        usuario.gustoPreferido = datosActualizados.gustoPreferido;
+        this.usuarios[indice] = usuario;
     }
 }
