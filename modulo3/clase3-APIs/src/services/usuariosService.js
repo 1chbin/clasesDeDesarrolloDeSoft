@@ -59,4 +59,25 @@ export class UsuarioService {
             usuarios: usuariosActualizados
         });
     }
+
+    agregarGustosMusicales(req, res) {
+        const id = req.params.id;
+        const gustos = req.body.gustosMusicales;
+        const ok = this.repo.agregarGustosMusicales(id, gustos);
+        if (ok) {
+            res.status(200).json({ success: true, message: "Gustos musicales actualizados." });
+        } else {
+            res.status(404).json({ success: false, message: "Usuario no encontrado." });
+        }
+    }
+
+    obtenerGustosMusicales(req, res) {
+        const id = req.params.id;
+        const gustos = this.repo.obtenerGustosMusicales(id);
+        if (gustos) {
+            res.status(200).json({ success: true, gustosMusicales: gustos });
+        } else {
+            res.status(404).json({ success: false, message: "Usuario no encontrado o sin gustos musicales." });
+        }
+    }
 }

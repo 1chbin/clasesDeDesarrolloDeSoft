@@ -28,4 +28,18 @@ export class RepositorioDeUsuarios {
         usuario.gustoPreferido = datosActualizados.gustoPreferido;
         this.usuarios[indice] = usuario;
     }
+
+        agregarGustosMusicales(id, gustos) {
+            const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
+            if (usuario) {
+                usuario.gustosMusicales = gustos;
+                return true;
+            }
+            return false;
+        }
+
+        obtenerGustosMusicales(id) {
+            const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
+            return usuario ? usuario.gustosMusicales : null;
+        }
 }

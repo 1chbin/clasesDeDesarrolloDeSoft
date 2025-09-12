@@ -20,4 +20,12 @@ router.put("/:id", (req, res) => {
     usuarioService.actualizarUsuario(req, res);
 });
 
+router.post("/:id/gustos-musicales", (req, res) => {
+    usuarioService.agregarGustosMusicales(req, res);
+});
+
+router.get("/:id/gustos-musicales", (req, res) => {
+    usuarioService.obtenerGustosMusicales(req, res);
+});
+
 export { router as usuariosRoute };

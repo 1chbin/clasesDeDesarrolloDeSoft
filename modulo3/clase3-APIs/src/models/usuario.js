@@ -4,5 +4,6 @@ export class Usuario {
         this.email = email;
         this.nombre = nombre;
         this.apellido = apellido;
+        this.gustosMusicales = [];
     }
 }
