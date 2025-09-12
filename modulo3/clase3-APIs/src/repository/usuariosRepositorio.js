@@ -1,6 +1,10 @@
 export class RepositorioDeUsuarios {
     constructor() {
-        this.usuarios = ['id', 'email', 'nombre', 'apellido', 'password'];
+        this.usuarios = [];
+    }
+
+    obtenerUsuarios() {
+        return this.usuarios;
     }
 
     guardar(usuario) {
@@ -12,6 +16,11 @@ export class RepositorioDeUsuarios {
     }
 
     buscarPorId(id) {
-        return this.usuarios.filter(usuario => usuario.id === id);
+        return this.usuarios.filter(usuario => String(usuario.id) === String(id));
+    }
+
+    actualizarUsuario(id, datosActualizados) {
+        const indice = this.usuarios.find(usuario => String(usuario.id) === String(id));
+        
     }
 }

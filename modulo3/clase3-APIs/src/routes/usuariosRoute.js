@@ -1,23 +1,23 @@
 import express from 'express';
-import { RepositorioDeUsuarios } from '../repositories/usuariosRepository.js';
+import { UsuarioService } from '../services/usuariosService.js';
 
 const router = express.Router();
-const repo = new RepositorioDeUsuarios();
+const usuarioService = new UsuarioService();
+
+router.get("/", (req, res) => {
+    usuarioService.obtenerUsuarios(req, res);
+});
+
+router.get("/:id", (req, res) => {
+    usuarioService.obtenerUsuarioPorId(req, res);
+});
 
 router.post("/", (req, res) => {
-    const email = req.body.email;
-
-    const usuariosConMismoEmail = repo.buscarPorEmail(email);
-
-    if(usuariosConMismoEmail.length > 0) {
-        res.status(400).json({
-            success: false,
-            message: "Ya existe un usuario con ese email."
-        });
-        return;
-    }
-
-    const usuario = new Usuario();
-
-    repo.guardar(usuario);
+    usuarioService.crearUsuario(req, res);
 });
+
+router.put("/:id", (req, res) => {
+    usuarioService.actualizarUsuario(req, res);
+});
+
+export { router as usuariosRoute };
