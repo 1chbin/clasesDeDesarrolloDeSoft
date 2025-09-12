@@ -3,6 +3,7 @@ import { openLibraryRoutes } from './routes/openLibraryRoutes.js';
 import { librosRoutes } from './routes/librosRoutes.js';
 import { routeInterna } from './routes/routeInterna.js';
 import { multimediaRoute } from './routes/multimediaRoute.js';
+import { resumenRoute } from './routes/resumenRoute.js';
 
 const app = express();
 
@@ -13,6 +14,7 @@ app.use("/api/libros", librosRoutes);
 app.use("/api/libros-interno", routeInterna)
 app.use("/api/libros-externo", openLibraryRoutes);
 app.use("/api/multimedia", multimediaRoute);
+app.use("/api/resumen", resumenRoute);
 
 
 // app.get("/api/prueba", (req, res)=> {
