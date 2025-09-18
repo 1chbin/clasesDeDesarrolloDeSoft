@@ -25,7 +25,7 @@ export class UsuarioService {
             res.status(201).json({
                 success: true,
                 message: "Usuario creado exitosamente.",
-                usuarios: this.repo.obtenerUsuarios()
+                usuarios: this.repo.buscarPorId(id)
             });
         }
     }
@@ -53,7 +53,7 @@ export class UsuarioService {
         const usuariosActualizados = this.repo.actualizarUsuario(id, datosActualizados);
         res.status(200).json({
             success: true,
-            usuarios: usuariosActualizados
+            usuarioActualizado: this.repo.buscarPorId(id)
         });
     }
 
@@ -65,7 +65,7 @@ export class UsuarioService {
             res.status(200).json({ 
                 success: true, 
                 message: "Gustos musicales actualizados.",
-                usuarios: this.repo.buscarPorId(id)
+                gustosMusicalesAñadidos: gustos 
             });
         } else {
             res.status(404).json({ success: false, message: "Usuario no encontrado." });
@@ -76,7 +76,10 @@ export class UsuarioService {
         const id = req.params.id;
         const gustos = this.repo.obtenerGustosMusicales(id);
         if (gustos) {
-            res.status(200).json({ success: true, gustosMusicales: gustos });
+            res.status(200).json({ 
+                success: true, 
+                gustosMusicales: gustos 
+            });
         } else {
             res.status(404).json({ success: false, message: "Usuario no encontrado o sin gustos musicales." });
         }
