@@ -42,4 +42,33 @@ export class RepositorioDeUsuarios {
             const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
             return usuario ? usuario.gustosMusicales : null;
         }
+
+    contarPorGustoMusical(gusto) {
+        return this.usuarios.filter(u => u.gustosMusicales.includes(gusto)).length;
+    }
+
+    contarPorProvincia(provincia) {
+        return this.usuarios.filter(u => u.provincia === provincia).length;
+    }
+
+    contarPorLocalidad(localidad) {
+        return this.usuarios.filter(u => u.localidad === localidad).length;
+    }
+
+    contarMayoresDe(edad) {
+        const hoy = new Date();
+        return this.usuarios.filter(u => {
+
+            if (!u.fechaNacimiento) return false;
+            const nacimiento = new Date(u.fechaNacimiento);
+            let edadUsuario = hoy.getFullYear() - nacimiento.getFullYear();
+            const m = hoy.getMonth() - nacimiento.getMonth();
+
+            if (m < 0 || (m === 0 && hoy.getDate() < nacimiento.getDate())) {
+                edadUsuario--;
+            }
+            
+            return edadUsuario >= edad;
+        }).length;
+    }
 }

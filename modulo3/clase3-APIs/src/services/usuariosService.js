@@ -9,11 +9,8 @@ export class UsuarioService {
     }
 
     crearUsuario(req, res) {
-        const id = req.body.id;
-        const email = req.body.email;
-        const nombre = req.body.nombre;
-        const apellido = req.body.apellido;
-        const gustoPreferido = req.body.gustoPreferido;
+        //Poner el req.body solo al final es mejor
+        const { id, email, nombre, apellido, fechaNacimiento, biografia, provincia, localidad } = req.body;
 
         const usuariosConMismoEmail = this.repo.buscarPorEmail(email);
 
@@ -21,9 +18,9 @@ export class UsuarioService {
             res.status(400).json({
                 success: false,
                 message: "Ya existe un usuario con ese email."
-        });
-        }else {
-            const usuario = new Usuario(id, email, nombre, apellido, gustoPreferido);
+            });
+        } else {
+            const usuario = new Usuario(id, email, nombre, apellido, fechaNacimiento, biografia, provincia, localidad);
             this.repo.guardar(usuario);
             res.status(201).json({
                 success: true,
@@ -65,7 +62,11 @@ export class UsuarioService {
         const gustos = req.body.gustosMusicales;
         const ok = this.repo.agregarGustosMusicales(id, gustos);
         if (ok) {
-            res.status(200).json({ success: true, message: "Gustos musicales actualizados." });
+            res.status(200).json({ 
+                success: true, 
+                message: "Gustos musicales actualizados.",
+                usuarios: this.repo.buscarPorId(id)
+            });
         } else {
             res.status(404).json({ success: false, message: "Usuario no encontrado." });
         }
@@ -79,5 +80,29 @@ export class UsuarioService {
         } else {
             res.status(404).json({ success: false, message: "Usuario no encontrado o sin gustos musicales." });
         }
+    }
+
+    contarPorGustoMusical(req, res) {
+        const gusto = req.params.gusto;
+        const cantidad = this.repo.contarPorGustoMusical(gusto);
+        res.status(200).json({ success: true, cantidad });
+    }
+
+    contarPorProvincia(req, res) {
+        const provincia = req.params.provincia;
+        const cantidad = this.repo.contarPorProvincia(provincia);
+        res.status(200).json({ success: true, cantidad });
+    }
+
+    contarPorLocalidad(req, res) {
+        const localidad = req.params.localidad;
+        const cantidad = this.repo.contarPorLocalidad(localidad);
+        res.status(200).json({ success: true, cantidad });
+    }
+
+    contarMayoresDe(req, res) {
+        const edad = parseInt(req.params.edad);
+        const cantidad = this.repo.contarMayoresDe(edad);
+        res.status(200).json({ success: true, cantidad });
     }
 }
