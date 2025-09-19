@@ -68,4 +68,18 @@ router.get("/estadisticas/mayores/:edad", (req, res) => {
     usuarioService.contarMayoresDe(req, res);
 });
 
+// http://localhost:3000/api/usuarios/1/publicaciones
+router.post("/publicaciones/:id", (req, res) => {
+    usuarioService.agregarPublicacion(req, res);    
+});
+// {
+//     "contenido": "Mi nueva publicación!",
+//     "tipoContenido": "texto",
+//     "urlImagen": null
+// }
+
+router.get("/publicaciones", (req, res) => {
+    usuarioService.obtenerPublicaciones(req, res);
+});
+
 export { router as usuariosRoute };

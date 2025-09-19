@@ -29,19 +29,19 @@ export class RepositorioDeUsuarios {
         this.usuarios[indice] = usuario;
     }
 
-        agregarGustosMusicales(id, gustos) {
-            const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
-            if (usuario) {
-                usuario.gustosMusicales = gustos;
-                return true;
-            }
-            return false;
+    agregarGustosMusicales(id, gustos) {
+        const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
+        if (usuario) {
+            usuario.gustosMusicales = gustos;
+            return true;
         }
+        return false;
+    }
 
-        obtenerGustosMusicales(id) {
-            const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
-            return usuario ? usuario.gustosMusicales : null;
-        }
+    obtenerGustosMusicales(id) {
+        const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
+        return usuario ? usuario.gustosMusicales : null;
+    }
 
     contarPorGustoMusical(gusto) {
         return this.usuarios.filter(u => u.gustosMusicales.includes(gusto)).length;
@@ -71,4 +71,31 @@ export class RepositorioDeUsuarios {
             return edadUsuario >= edad;
         }).length;
     }
+
+    agregarPublicacion(id, publicacion) {
+        const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
+        if (usuario) {
+            usuario.publicaciones.push(publicacion);
+            return true;
+        }
+        return false;
+    }
+
+    obtenerTodasLasPublicaciones() {
+    const todasLasPublicaciones = [];
+    
+    this.usuarios.forEach(usuario => {
+        usuario.publicaciones.forEach(publicacion => {
+            todasLasPublicaciones.push({
+                ...publicacion,
+                autorId: usuario.id,
+                autorNombre: usuario.nombre,
+                autorApellido: usuario.apellido
+            });
+        });
+    });
+    
+    // Ordenar por fecha más reciente
+    return todasLasPublicaciones.sort((a, b) => b.fechaCreacion - a.fechaCreacion);
+}
 }

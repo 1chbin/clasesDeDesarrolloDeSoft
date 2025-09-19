@@ -108,4 +108,34 @@ export class UsuarioService {
         const cantidad = this.repo.contarMayoresDe(edad);
         res.status(200).json({ success: true, cantidad });
     }
+
+    agregarPublicacion(req, res) {
+        const id = req.params.id;
+        const { contenido, tipoContenido, urlImagen } = req.body;
+        const ok = this.repo.agregarPublicacion(id, { contenido, tipoContenido, urlImagen });
+        if (ok) {
+            res.status(200).json({ 
+                success: true, 
+                message: "Publicacion agregada",
+                publicacionAñadida: { contenido, tipoContenido, urlImagen }
+            });
+        } else {
+            res.status(404).json({ success: false, message: "Usuario no encontrado." });
+        }
+    }
+
+    obtenerPublicaciones(req, res) {
+    const publicaciones = this.repo.obtenerTodasLasPublicaciones();
+    if (publicaciones && publicaciones.length > 0) {
+        res.status(200).json({ 
+            success: true, 
+            publicaciones: publicaciones
+        });
+    } else {
+        res.status(200).json({ 
+            message: "No hay publicaciones disponibles.",
+            publicaciones: []
+        });
+    }
+}
 }
