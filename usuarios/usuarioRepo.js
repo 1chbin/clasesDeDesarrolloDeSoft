@@ -14,7 +14,8 @@ export class UsuarioRepo {
     }
 
     agregarUsuario(usuario) {
-        this.usuarios.push(new Usuario(usuario));
+        const { id, nombre, apellido, email, fechaNacimiento, biografia, provincia, localidad } = usuario;
+        this.usuarios.push(new Usuario(id, nombre, apellido, email, fechaNacimiento, biografia, provincia, localidad));
     }
 
     editarUsuario(id, usuario) {
@@ -38,7 +39,7 @@ export class UsuarioRepo {
     }
     
     verificarMail(email) {
-        return this.usuarios.some(u => u.email === email);
+        return this.usuarios.some(u => u.email == email);
     }
 
     obtenerUltimoId() {

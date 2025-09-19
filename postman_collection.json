@@ -1,0 +1,226 @@
+{
+  "info": {
+    "name": "enComunidad API",
+    "description": "Colección de endpoints para la API enComunidad",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Usuarios",
+      "item": [
+        {
+          "name": "Obtener todos los usuarios",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/usuarios",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["usuarios"]
+            }
+          }
+        },
+        {
+          "name": "Obtener usuario por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/usuarios?id=1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["usuarios"],
+              "query": [
+                {
+                  "key": "id",
+                  "value": "1"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Crear usuario",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Ana\",\n  \"apellido\": \"García\",\n  \"email\": \"ana@example.com\",\n  \"fechaNacimiento\": \"1995-03-15\",\n  \"biografia\": \"Me gusta la música y los libros\",\n  \"provincia\": \"Córdoba\",\n  \"localidad\": \"Córdoba Capital\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/usuarios",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["usuarios"]
+            }
+          }
+        },
+        {
+          "name": "Agregar gustos musicales",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"gustosMusicales\": [\"pop\", \"rock\", \"indie\"]\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/usuarios/gustos?id=1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["usuarios", "gustos"],
+              "query": [
+                {
+                  "key": "id",
+                  "value": "1"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Amigos",
+      "item": [
+        {
+          "name": "Crear solicitud de amistad",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idSolicitante\": 1,\n  \"idSolicitado\": 2\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/amigos/solicitudes-amistad",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["amigos", "solicitudes-amistad"]
+            }
+          }
+        },
+        {
+          "name": "Aceptar solicitud de amistad",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idSolicitante\": 1,\n  \"aceptar\": true\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/amigos/solicitudes-amistad/2",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["amigos", "solicitudes-amistad", "2"]
+            }
+          }
+        },
+        {
+          "name": "Obtener amigos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/amigos/1/amigos",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["amigos", "1", "amigos"]
+            }
+          }
+        },
+        {
+          "name": "Obtener solicitudes recibidas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/amigos/1/solicitudes-de-amistad",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["amigos", "1", "solicitudes-de-amistad"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Estadísticas",
+      "item": [
+        {
+          "name": "Usuarios por género musical",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/usuarios/stats/genero/rock",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["usuarios", "stats", "genero", "rock"]
+            }
+          }
+        },
+        {
+          "name": "Usuarios más rechazados",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/amigos/stats/mas-rechazados",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["amigos", "stats", "mas-rechazados"]
+            }
+          }
+        },
+        {
+          "name": "Usuarios spammers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/amigos/stats/spammers/5",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["amigos", "stats", "spammers", "5"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
