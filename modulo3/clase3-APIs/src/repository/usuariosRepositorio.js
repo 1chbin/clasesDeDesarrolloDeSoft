@@ -102,4 +102,15 @@ export class RepositorioDeUsuarios {
         const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
         return usuario ? usuario.publicaciones : null;
     }
+
+    // obtenerPublicacion(idPublicacion){
+    //     const publicacion = this.publicaciones.find(publicacion => String(publicaciones.idPublicacion) === String(idPublicacion));
+    //     return publicacion;
+    // }
+
+    obtenerPublicacion(idPublicacion) {
+        return this.usuarios
+            .flatMap(usuario => usuario.publicaciones)
+            .find(publicacion => String(publicacion.idPublicacion) === String(idPublicacion));
+    }
 }

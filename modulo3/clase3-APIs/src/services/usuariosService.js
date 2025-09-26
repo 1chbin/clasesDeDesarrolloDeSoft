@@ -156,12 +156,20 @@ export class UsuarioService {
         }
     }
 
-    // obtenerUsuarioPorId(req, res) {
-    //     const id = req.params.id;
-    //     const usuarios = this.repo.buscarPorId(id);
-    //     res.status(200).json({
-    //         success: true,
-    //         usuarios
-    //     });
-    // }
+    obtenerPublicacionPorId(req, res) {
+        const idPublicacion = req.params.idPublicacion;
+        const publicacion = this.repo.obtenerPublicacion(idPublicacion);
+        
+        if (publicacion) {
+            res.status(200).json({
+                success: true,
+                publicacion: publicacion
+            });
+        } else {
+            res.status(404).json({
+                success: false,
+                message: "Publicación no encontrada."
+            });
+        }
+    }
 }
