@@ -82,20 +82,24 @@ export class RepositorioDeUsuarios {
     }
 
     obtenerTodasLasPublicaciones() {
-    const todasLasPublicaciones = [];
-    
-    this.usuarios.forEach(usuario => {
-        usuario.publicaciones.forEach(publicacion => {
-            todasLasPublicaciones.push({
-                ...publicacion,
-                autorId: usuario.id,
-                autorNombre: usuario.nombre,
-                autorApellido: usuario.apellido
+        const todasLasPublicaciones = [];
+        
+        this.usuarios.forEach(usuario => {
+            usuario.publicaciones.forEach(publicacion => {
+                todasLasPublicaciones.push({
+                    ...publicacion,
+                    autorId: usuario.id,
+                    autorNombre: usuario.nombre,
+                    autorApellido: usuario.apellido
+                });
             });
         });
-    });
-    
-    // Ordenar por fecha más reciente
-    return todasLasPublicaciones.sort((a, b) => b.fechaCreacion - a.fechaCreacion);
-}
+        
+        return todasLasPublicaciones.sort((a, b) => b.fechaCreacion - a.fechaCreacion);
+    }
+
+    obtenerPublicacionesPorId(id) {
+        const usuario = this.usuarios.find(usuario => String(usuario.id) === String(id));
+        return usuario ? usuario.publicaciones : null;
+    }
 }

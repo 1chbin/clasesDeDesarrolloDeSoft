@@ -14,8 +14,9 @@ export class Usuario {
         this.publicaciones = [];
     }
 
-    agregarPublicacion(contenido, tipoContenido = 'texto', urlImagen = null) {
+    agregarPublicacion(idPublicacion, contenido, tipoContenido = 'texto', urlImagen = null) {
         const nuevaPublicacion = new Publicacion(
+            idPublicacion,
             Date.now(),
             contenido,
             new Date(),

@@ -111,13 +111,13 @@ export class UsuarioService {
 
     agregarPublicacion(req, res) {
         const id = req.params.id;
-        const { contenido, tipoContenido, urlImagen } = req.body;
-        const ok = this.repo.agregarPublicacion(id, { contenido, tipoContenido, urlImagen });
+        const { idPublicacion, contenido, tipoContenido, urlImagen } = req.body;
+        const ok = this.repo.agregarPublicacion(id, { idPublicacion, contenido, tipoContenido, urlImagen });
         if (ok) {
             res.status(200).json({ 
                 success: true, 
                 message: "Publicacion agregada",
-                publicacionAñadida: { contenido, tipoContenido, urlImagen }
+                publicacionAñadida: { idPublicacion, contenido, tipoContenido, urlImagen }
             });
         } else {
             res.status(404).json({ success: false, message: "Usuario no encontrado." });
@@ -125,17 +125,43 @@ export class UsuarioService {
     }
 
     obtenerPublicaciones(req, res) {
-    const publicaciones = this.repo.obtenerTodasLasPublicaciones();
-    if (publicaciones && publicaciones.length > 0) {
-        res.status(200).json({ 
-            success: true, 
-            publicaciones: publicaciones
-        });
-    } else {
-        res.status(200).json({ 
-            message: "No hay publicaciones disponibles.",
-            publicaciones: []
-        });
+        const publicaciones = this.repo.obtenerTodasLasPublicaciones();
+        if (publicaciones && publicaciones.length > 0) {
+            res.status(200).json({ 
+                success: true, 
+                publicaciones: publicaciones
+            });
+        } else {
+            res.status(200).json({ 
+                message: "No hay publicaciones disponibles.",
+                publicaciones: []
+            });
+        }
     }
-}
+
+    obtenerPublicacionesPorUsuario(req, res) {
+        const id = req.params.id;
+        const publicaciones = this.repo.obtenerPublicacionesPorId(id);
+        
+        if (publicaciones && publicaciones.length > 0) {
+            res.status(200).json({ 
+                success: true, 
+                publicaciones: publicaciones,
+            });
+        } else {
+            res.status(200).json({ 
+                message: "No hay publicaciones disponibles.",
+                publicaciones: []
+            });
+        }
+    }
+
+    // obtenerUsuarioPorId(req, res) {
+    //     const id = req.params.id;
+    //     const usuarios = this.repo.buscarPorId(id);
+    //     res.status(200).json({
+    //         success: true,
+    //         usuarios
+    //     });
+    // }
 }

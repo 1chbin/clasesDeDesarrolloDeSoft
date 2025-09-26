@@ -82,4 +82,8 @@ router.get("/publicaciones", (req, res) => {
     usuarioService.obtenerPublicaciones(req, res);
 });
 
+router.get("/publicaciones/:id", (req, res) => {
+    usuarioService.obtenerPublicacionesPorUsuario(req, res);
+});
+
 export { router as usuariosRoute };

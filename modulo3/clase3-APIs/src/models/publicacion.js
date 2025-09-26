@@ -1,6 +1,6 @@
 export class Publicacion {
-    constructor(id, contenido, fechaCreacion, tipoContenido = 'texto', urlImagen = null, likes = 0) {
-        this.id = id;
+    constructor(idPublicacion, contenido, fechaCreacion, tipoContenido = 'texto', urlImagen = null, likes = 0) {
+        this.idPublicacion = idPublicacion;
         this.contenido = contenido;
         this.fechaCreacion = fechaCreacion || new Date();
         this.tipoContenido = tipoContenido;
